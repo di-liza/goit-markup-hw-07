@@ -22,15 +22,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-} */
 img {
   display: block;
   max-width: 100%;
@@ -77,7 +68,8 @@ img {
   font-family: inherit;
   letter-spacing: 0.03em;
 }
-.visually-hidden {
+
+.visuality-hidden {
   position: absolute;
   white-space: nowrap;
 
@@ -112,7 +104,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
 }
-.logo-el {
+.logo--color-blue {
   color: var(--accent-color);
 }
 
@@ -170,7 +162,7 @@ img {
 }
 
 /* Виділення і псевдостани посилань на сторінки*/
-.contact__link {
+.header__contact-link {
   color: var(--primary-text-color);
   fill: var(--primary-text-color);
   letter-spacing: 0.02em;
@@ -178,7 +170,7 @@ img {
   font-size: 14px;
 }
 
-.contact {
+.header__contact-container {
   display: flex;
   align-items: baseline;
   gap: 50px;
@@ -186,19 +178,19 @@ img {
   margin-left: auto;
 }
 
-.contact__link {
+.header__contact-link {
   display: flex;
   align-items: center;
 }
-.contact__icon {
+.header__contact-icon {
   fill: currentColor;
   margin-right: 10px;
 }
-.contact__link {
+.header__contact-link {
   transition: color 250ms var(--timing-function);
 }
-.contact__link:hover,
-.contact__link:focus {
+.header__contact-link:hover,
+.header__contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -242,10 +234,6 @@ img {
 }
 
 /* Кнопка Замовити послугу */
-.btn {
-  display: flex;
-  justify-content: center;
-}
 .hero__btn {
   width: 216px;
   padding-top: 10px;
@@ -370,7 +358,7 @@ img {
   line-height: 1.166;
   letter-spacing: 0.01em;
 }
-.form-icon {
+.order-form__icon {
   position: absolute;
   top: 11px;
   left: 12px;
@@ -530,7 +518,7 @@ img {
 }
 .features__item {
   width: 270px;
-  flex-basis: calc(100% / 3 var(--card-set-gap-margin));
+  flex-basis: calc(100% / 3 * var(--card-set-gap-margin));
   margin-right: var(--card-set-gap-margin);
 }
 .icon-thumb {
@@ -645,9 +633,7 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.team .title {
-  color: var(--title-text-color);
-}
+
 .team__subtitle {
   margin-top: 0;
   margin-bottom: 10px;
@@ -664,12 +650,6 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-}
-.icon-list {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  /* margin-top: 16px; */
 }
 .team__socials {
   display: flex;
@@ -750,7 +730,7 @@ img {
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function),
     box-shadow 250ms var(--timing-function);
 }
-.main-btn {
+.porfolio__button--main-btn {
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -868,7 +848,7 @@ img {
   background-color: var(--accent-background-color);
 }
 
-.logo-second-el {
+.logo--color-light {
   padding-top: 60px;
   padding-bottom: 60px;
 
@@ -886,7 +866,7 @@ img {
   margin-top: 9px;
 }
 
-.location {
+.footer__location {
   color: var(--primary-white-color);
   letter-spacing: 0.03em;
 }

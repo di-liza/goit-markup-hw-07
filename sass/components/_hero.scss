@@ -1,0 +1,51 @@
+.hero {
+    width: auto;
+    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    text-align: center;
+}
+
+.overlay {
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 600px;
+    max-width: 1600px;
+
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $accent-background-color;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(../images/fone-img.jpg);
+}
+
+.hero__title {
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 696px;
+
+    color: $primary-white-color;
+    font-size: 44px;
+    line-height: 1.36;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Кнопка Замовити послугу */
+.hero__btn {
+    width: 216px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    color: $primary-white-color;
+    background-color: $accent-color;
+    letter-spacing: 0.06em;
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 700;
+}
