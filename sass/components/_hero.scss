@@ -1,4 +1,5 @@
 .hero {
+    @include section-padding($p-top: 200px, $p-bott: 200px);
     width: auto;
     height: 600px;
     padding-top: 200px;

@@ -1,3 +1,6 @@
+.porfolio{
+    @include section-padding();
+}
 .porfolio__filter {
     @extend %list;
     display: flex;

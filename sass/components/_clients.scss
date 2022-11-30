@@ -1,4 +1,5 @@
 .clients {
+    @include section-padding ();
     width: auto;
 }
 .clients__title{

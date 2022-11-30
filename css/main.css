@@ -362,11 +362,6 @@ img {
           align-items: flex-start;
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .socials__link--color {
   color: #afb1b8;
 }
@@ -551,6 +546,8 @@ img {
 }
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   width: auto;
   height: 600px;
   padding-top: 200px;
@@ -891,6 +888,8 @@ img {
 }
 
 .features {
+  padding-top: 94px;
+  padding-bottom: 0;
   width: auto;
   padding-bottom: 0;
 }
@@ -955,6 +954,8 @@ img {
 }
 
 .tasks {
+  padding-top: 94px;
+  padding-bottom: 94px;
   width: auto;
 }
 
@@ -1009,6 +1010,8 @@ img {
 }
 
 .team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #f5f4fa;
   width: auto;
 }
@@ -1064,6 +1067,8 @@ img {
 }
 
 .clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
   width: auto;
 }
 
@@ -1107,6 +1112,11 @@ img {
   fill: currentColor;
   width: 106px;
   height: 60px;
+}
+
+.porfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .porfolio__filter {

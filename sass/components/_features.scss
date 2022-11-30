@@ -1,5 +1,6 @@
 
 .features {
+    @include section-padding ($p-bott: 0);
     width: auto;
     padding-bottom: 0;
 }
@@ -24,17 +25,6 @@
     flex-basis: calc((100% - 90px) / 4);
 }
 
-// .features__icon-thumb{
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-
-//     height: 120px;
-//     margin-bottom: 30px;
-//     border-radius: 4px;
-
-//     background-color: $second-accent-background-color;
-// }
 
 .features__icon {
     width: 70px;
