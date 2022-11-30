@@ -35,9 +35,7 @@
 }
 
 .subscribe-button {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    @extend %flex-container-center;
     align-items: center;
     margin-left: 12px;
     width: 200px;

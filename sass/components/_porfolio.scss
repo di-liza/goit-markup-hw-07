@@ -3,9 +3,8 @@
 }
 .porfolio__filter {
     @extend %list;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-container-center;
+    
     margin-bottom: 50px;
     gap: 8px;
 }

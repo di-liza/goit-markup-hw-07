@@ -22,9 +22,7 @@
 
 .socials__link {
     @extend %link;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-container-center;
 
     width: 44px;
     height: 44px;

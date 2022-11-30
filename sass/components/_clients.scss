@@ -7,17 +7,13 @@
 }
 .clients__list {
     @extend %list;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-container-center;
     gap: 30px;
 }
 
 .clients__link {
     @extend %link;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex-container-center;
 
     width: 170px;
     height: 92px;

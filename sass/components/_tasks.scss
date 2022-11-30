@@ -30,9 +30,7 @@
 }
 
 .tasks__label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex-container-center;
     position: absolute;
 
     width: 100%;
