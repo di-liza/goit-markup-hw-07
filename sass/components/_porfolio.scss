@@ -1,12 +1,16 @@
 .porfolio__filter {
+    @extend %list;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
     gap: 8px;
 }
-
+.porfolio__title{
+    @extend %visuality-hidden;
+}
 .porfolio__button {
+    @extend %button;
     display: block;
     padding-top: 6px;
     padding-bottom: 6px;

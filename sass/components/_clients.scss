@@ -1,8 +1,11 @@
 .clients {
     width: auto;
 }
-
+.clients__title{
+    @extend %section-title;
+}
 .clients__list {
+    @extend %list;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,6 +13,7 @@
 }
 
 .clients__link {
+    @extend %link;
     display: flex;
     justify-content: center;
     align-items: center;

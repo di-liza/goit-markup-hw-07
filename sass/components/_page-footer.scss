@@ -14,27 +14,27 @@
     font-size: 14px;
     line-height: 1.71;
 }
-
+.footer__list{
+    @extend %list;
+}
 .footer__item {
     margin-top: 9px;
 }
 
 .footer__location {
+    @extend %link;
     color: $primary-white-color;
     letter-spacing: 0.03em;
 }
 
 .footer__contact {
+    @extend %link;
     color: $link-address-bottom-color;
     letter-spacing: 0.03em;
     font-weight: 400;
     font-size: 14px;
-}
-
-.footer__contact {
     transition: color 250ms $timing-function;
 }
-
 .footer__contact:hover,
 .footer__contact:focus {
     color: $accent-color;

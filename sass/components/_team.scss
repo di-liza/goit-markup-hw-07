@@ -2,8 +2,11 @@
     background-color: $second-accent-background-color;
     width: auto;
 }
-
+.team__title{
+    @extend %section-title;
+}
 .team__list {
+    @extend %list;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

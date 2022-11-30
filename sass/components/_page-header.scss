@@ -15,6 +15,7 @@
 }
 
 .header__list {
+    @extend %list;
     display: flex;
     gap: 50px;
 
@@ -26,6 +27,7 @@
 }
 
 .header__link {
+    @extend %link;
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -68,6 +70,7 @@
 
 /* Виділення і псевдостани посилань на сторінки*/
 .header__contact-link {
+    @extend %link;
     color: $primary-text-color;
     fill: $primary-text-color;
     letter-spacing: 0.02em;

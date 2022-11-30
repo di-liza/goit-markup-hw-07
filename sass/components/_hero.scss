@@ -38,6 +38,7 @@
 
 /* Кнопка Замовити послугу */
 .hero__btn {
+    @extend %button;
     width: 216px;
     padding-top: 10px;
     padding-bottom: 10px;

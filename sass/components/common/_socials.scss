@@ -11,6 +11,7 @@
     }
 }
 .socials__list {
+    @extend %list;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -23,6 +24,7 @@
 }
 
 .socials__link {
+    @extend %link;
     display: flex;
     justify-content: center;
     align-items: center;
