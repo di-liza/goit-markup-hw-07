@@ -13,9 +13,6 @@
 .socials__list {
     @extend %list;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
 }
 

@@ -2,3 +2,9 @@
     padding-top: $p-top;
     padding-bottom: $p-bott;
 }
+
+@mixin flex-container ($align:center){
+    display: flex;
+    justify-content: center;
+    align-items: $align;
+}
