@@ -2,3 +2,7 @@
     padding-top: $p-top;
     padding-bottom: $p-bott;
 }
+@mixin section-mob-tabl-padding () {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}

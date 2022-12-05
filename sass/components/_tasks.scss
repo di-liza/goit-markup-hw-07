@@ -1,6 +1,10 @@
 .tasks {
     @include section-padding();
     width: auto;
+
+    @media screen and (max-width:1600px) {
+            display: none;
+        }
 }
 
 .tasks__title {
@@ -9,6 +13,7 @@
 
 .tasks__list {
     @extend %list;
+    
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

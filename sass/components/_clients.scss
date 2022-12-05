@@ -8,9 +8,29 @@
 .clients__list {
     @extend %list;
     @extend %flex-container-center;
-    gap: 30px;
-}
+    gap: $card-set-gap-margin;
 
+    @media screen and (min-width:480px) {
+        width: 450px;
+    }
+    
+    @media screen and (min-width:768px) {
+        width: 738px;
+    }
+    
+    @media screen and (min-width:1600px) {
+        width: 1170px;
+    }
+}
+.clients__item{
+    @media screen and (min-width:480px) {
+        flex-basis: calc((100% - 30px)/2);
+    }
+    
+    @media screen and (min-width:768px) {}
+    
+    @media screen and (min-width:1600px) {}
+}
 .clients__link {
     @extend %link;
     @extend %flex-container-center;
